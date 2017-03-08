@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1485839203 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\tuple template\main.cpp
+	<tuple>
+	<iostream>
+	<vector>
+

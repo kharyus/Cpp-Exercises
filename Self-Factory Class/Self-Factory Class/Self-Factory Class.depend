@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1485463104 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\self-factory class\self-factory class\main.cpp
+	<iostream>
+	"Robot.h"
+	"SelfFactory.h"
+
+1485462907 c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\self-factory class\self-factory class\robot.h
+	<vector>
+	<algorithm>
+
+1485462621 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\self-factory class\self-factory class\robot.cpp
+	"Robot.h"
+
+1485463053 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\self-factory class\self-factory class\src\selffactory.cpp
+	"SelfFactory.h"
+	<algorithm>
+
+1485463275 c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\self-factory class\self-factory class\include\selffactory.h
+	<vector>
+

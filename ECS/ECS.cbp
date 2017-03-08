@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECS" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw64_530_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ECS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="mingw64_530_compiler" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ECS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="mingw64_530_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Main.cpp" />
+		<Unit filename="include/CollisionComponent.h" />
+		<Unit filename="include/CollisionSystem.h" />
+		<Unit filename="include/Component.h" />
+		<Unit filename="include/ECSManager.h" />
+		<Unit filename="include/Entity.h" />
+		<Unit filename="include/GraphicSystem.h" />
+		<Unit filename="include/HealthComponent.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="src/CollisionComponent.cpp" />
+		<Unit filename="src/CollisionSystem.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/ECSManager.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/GraphicSystem.cpp" />
+		<Unit filename="src/HealthComponent.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/System.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

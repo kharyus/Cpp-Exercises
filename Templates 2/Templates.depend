@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1464324437 source:c:\programming\projects\learning projects\c++\templates\main.cpp
+	"Template.hpp"
+	"Template2.hpp"
+
+1464326202 c:\programming\projects\learning projects\c++\templates\template.hpp
+	<iostream>
+
+1464324028 source:c:\programming\projects\learning projects\c++\templates\template.cpp
+	"Template.hpp"
+
+1464326726 c:\programming\projects\learning projects\c++\templates\include\template2.hpp
+	<iostream>
+	"../src/Template2.cpp"
+
+1464324455 source:c:\programming\projects\learning projects\c++\templates\src\template2.cpp
+	"Template2.hpp"
+
+1464326137 c:\programming\projects\learning projects\c++\templates\src\template2.cpp
+	"Template2.hpp"
+

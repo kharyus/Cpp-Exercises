@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SFML Template" />
+		<Option execution_dir="C:/Users/Cristian/Desktop/Backup/Programming/Projects/C++/Templates/SFML Template/" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw-64_630" />
+		<MakeCommands>
+			<Build command="" />
+			<CompileFile command="" />
+			<Clean command="" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command=" &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/SFML Template (Debug)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="mingw-64_630" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-network-s-d" />
+					<Add library="sfml-main-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="openal32" />
+					<Add library="FLAC" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/SFML Template" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="mingw-64_630" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DRELEASE" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-network-s" />
+					<Add library="sfml-main" />
+					<Add library="sfml-system-s" />
+					<Add library="openal32" />
+					<Add library="FLAC" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="vorbis" />
+					<Add library="ogg" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DSFML_STATIC" />
+			<Add directory="C:/Libraries/Lua/lua-5.3.3/include" />
+			<Add directory="C:/Users/Cristian/Desktop/Backup/Programming/Libraries/C++/SFML-2.4.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Libraries/Lua/lua-5.3.3/lib/liblua.a" />
+			<Add directory="C:/Libraries/Lua/lua-5.3.3/lib/" />
+			<Add directory="C:/Users/Cristian/Desktop/Backup/Programming/Libraries/C++/SFML-2.4.1/lib" />
+		</Linker>
+		<Unit filename="../../../C++/Templates/SFML Template/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

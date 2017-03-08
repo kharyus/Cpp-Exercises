@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1485821818 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\share unique ptrs\main.cpp
+	<iostream>
+	<memory>
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1479286240 source:c:\programming\projects\learning projects\c++\message passing\main.cpp
+	<StuffManager.h>
+
+1479286234 c:\programming\projects\learning projects\c++\message passing\include\stuffmanager.h
+	"Stuff.h"
+	<iostream>
+
+1479286348 c:\programming\projects\learning projects\c++\message passing\include\stuff.h
+	<string>
+
+1479285480 source:c:\programming\projects\learning projects\c++\message passing\src\stuff.cpp
+	"Stuff.h"
+	"StuffManager.h"
+
+1479284743 source:c:\programming\projects\learning projects\c++\message passing\src\stuffmanager.cpp
+	"StuffManager.h"
+

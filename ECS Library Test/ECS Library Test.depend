@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1479085074 source:c:\programming\projects\learning projects\c++\ecs library test\src\graphiccomponent.cpp
+	"GraphicComponent.h"
+
+1479086234 c:\programming\projects\learning projects\c++\ecs library test\include\graphiccomponent.h
+	"Component.h"
+
+1479086026 source:c:\programming\projects\learning projects\c++\ecs library test\src\main.cpp
+	"ECSManager.h"
+	"GraphicSystem.h"
+	"Player.h"
+
+1479084720 c:\programming\projects\c++\libraries\ecs\include\ecsmanager.h
+	"Entity.h"
+	"Component.h"
+	"System.h"
+	<vector>
+
+1479083854 c:\programming\projects\c++\libraries\ecs\include\entity.h
+	"Component.h"
+	<unordered_map>
+	<typeindex>
+
+1479083841 c:\programming\projects\c++\libraries\ecs\include\component.h
+
+1479084744 c:\programming\projects\c++\libraries\ecs\include\system.h
+	"Entity.h"
+	<vector>
+
+1479086250 source:c:\programming\projects\learning projects\c++\ecs library test\src\graphicsystem.cpp
+	"GraphicSystem.h"
+	"GraphicComponent.h"
+	<iostream>
+
+1479085595 c:\programming\projects\learning projects\c++\ecs library test\include\graphicsystem.h
+	"System.h"
+
+1479085504 source:c:\programming\projects\learning projects\c++\ecs library test\src\player.cpp
+	"Player.h"
+	"GraphicComponent.h"
+
+1479085756 c:\programming\projects\learning projects\c++\ecs library test\include\player.h
+	"Entity.h"
+

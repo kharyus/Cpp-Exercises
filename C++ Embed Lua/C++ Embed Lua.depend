@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1478985558 source:c:\programming\projects\learning projects\c++\c++ embed lua\main.cpp
+	"lua.hpp"
+	<lua.hpp>
+	<LuaBridge.h>
+	<iostream>
+
+1103781184 c:\program files (x86)\lua\5.1\include\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1218040212 c:\program files (x86)\lua\5.1\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1219948776 c:\program files (x86)\lua\5.1\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1198778544 c:\program files (x86)\lua\5.1\include\lualib.h
+	"lua.h"
+
+1198778544 c:\program files (x86)\lua\5.1\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1103763184 c:\libraries\lua\lua-5.3.3\include\lua.hpp
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1464623608 c:\libraries\lua\lua-5.3.3\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1462133169 c:\libraries\lua\lua-5.3.3\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1391707953 c:\libraries\lua\lua-5.3.3\include\lualib.h
+	"lua.h"
+
+1448278183 c:\libraries\lua\lua-5.3.3\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\luabridge.h
+	<cassert>
+	<sstream>
+	<stdexcept>
+	<string>
+	<typeinfo>
+	"detail/LuaHelpers.h"
+	"detail/TypeTraits.h"
+	"detail/TypeList.h"
+	"detail/FuncTraits.h"
+	"detail/Constructor.h"
+	"detail/Stack.h"
+	"detail/ClassInfo.h"
+	"detail/LuaException.h"
+	"detail/LuaRef.h"
+	"detail/Iterator.h"
+	"detail/Userdata.h"
+	"detail/CFunctions.h"
+	"detail/Namespace.h"
+
+1478983561 c:\libraries\lua\luabridge\source\luabridge\detail\luahelpers.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\typetraits.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\typelist.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\functraits.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\constructor.h
+
+1478983728 c:\libraries\lua\luabridge\source\luabridge\detail\stack.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\classinfo.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\luaexception.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\luaref.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\iterator.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\userdata.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\cfunctions.h
+
+1382191058 c:\libraries\lua\luabridge\source\luabridge\detail\namespace.h
+

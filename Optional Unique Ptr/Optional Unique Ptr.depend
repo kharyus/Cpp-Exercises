@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1485815487 source:c:\users\cristian\desktop\backup\programming\projects\learning projects\c++\optional unique ptr\main.cpp
+	<iostream>
+	<experimental/optional>
+	<memory>
+	<vector>
+

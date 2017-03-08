@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECS Library Test" />
+		<Option pch_mode="2" />
+		<Option compiler="mingw64_530_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ECS Library Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="mingw64_530_compiler" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="libECS-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ECS Library Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="mingw64_530_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libECS.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Programming/Projects/C++/Libraries/ECS/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Programming/Projects/C++/Libraries/ECS/lib" />
+		</Linker>
+		<Unit filename="include/GraphicComponent.h" />
+		<Unit filename="include/GraphicSystem.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="src/GraphicComponent.cpp" />
+		<Unit filename="src/GraphicSystem.cpp" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
