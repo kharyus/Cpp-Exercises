@@ -11,7 +11,7 @@ int main()
     for (int i = 0; i < 10; ++i)
         std::cout << "++i For: " << i << std::endl;
 
-    // Conclusion: They do the same thing.
+    // Conclusion: They do the same thing on a for.
     // ++i might do it better though because of performance,
     // although I would need to research whether it isn't optimized
     // anyway and where the performance increase would come from.
