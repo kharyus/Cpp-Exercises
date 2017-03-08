@@ -1,3 +1,5 @@
+// Hackerrank challenge.
+// TODO: Finish this thing by implementing the Longest Common Subsequence
     if (dynamic_cast<Fireball*>(spell))
         dynamic_cast<Fireball*>(spell)->revealFirepower();
     else if (dynamic_cast<Frostbite*>(spell))
