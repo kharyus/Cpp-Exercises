@@ -5,6 +5,7 @@ using namespace std;
 class Matrix
 {
 public:
+    // TODO: Optimize this thing.
     Matrix operator+(Matrix& other)
     {
         Matrix tempMat;
